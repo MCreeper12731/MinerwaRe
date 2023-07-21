@@ -1,0 +1,3 @@
+#maximum number of players in the game
+#default: 16
+max-players: 16
