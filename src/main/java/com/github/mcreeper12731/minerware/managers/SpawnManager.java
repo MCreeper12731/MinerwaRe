@@ -5,6 +5,7 @@ import com.github.mcreeper12731.minerware.models.Position;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
+import lombok.Getter;
 import org.bukkit.scoreboard.Team;
 
 import java.io.*;
@@ -18,8 +19,11 @@ public class SpawnManager {
 
     private final Minerware plugin;
 
+    @Getter
     private Position lobbyLocation;
+    @Getter
     private Position wonLocation;
+    @Getter
     private Position lostLocation;
 
     public SpawnManager(Minerware plugin) {
