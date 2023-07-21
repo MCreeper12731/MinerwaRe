@@ -25,4 +25,8 @@ public class PlayerManager {
         return ImmutableSet.copyOf(players.values());
     }
 
+    public int getPlayerAmount() {
+        return players.size();
+    }
+
 }
