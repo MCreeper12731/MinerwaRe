@@ -1,0 +1,4 @@
+name: MinerwaRe
+version: '${project.version}'
+main: com.github.mcreeper12731.minerware.MinerwaRe
+api-version: '1.20'
